@@ -1,8 +1,8 @@
-Voltage = 5.000000E+0
-Voltage_Change = 1.000000E-3
-limiti_I = 1.000000E-1 * 0.001
+Voltage = 0.000000E+0
+Voltage_Change = 0.000000E+0
+limiti_I = 0.000000E+0 * 0.001
 List = {}
-Points = math.abs(Voltage) / Voltage_Change + 1
+Points = Voltage / Voltage_Change + 1
 for i = 1, Points do List[i] = 0 + (i - 1) * Voltage_Change end
 for i = 1, Points do List[i + Points] = List[Points - i] end
 smua.nvbuffer1.clear()
@@ -21,4 +21,5 @@ end
 smua.source.leveli = 0
 smua.source.levelv = 0
 smua.source.output = smua.OUTPUT_OFF
+print("{done}")
 reset()

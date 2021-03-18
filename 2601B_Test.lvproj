@@ -37,7 +37,6 @@
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Count Data Points.vi" Type="VI" URL="/&lt;vilib&gt;/picture/cartesn2.llb/Count Data Points.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Draw Axes.vi" Type="VI" URL="/&lt;vilib&gt;/picture/cartesn2.llb/Draw Axes.vi"/>
@@ -102,6 +101,125 @@
 				<Item Name="XY Plot Type.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/cartesn2.llb/XY Plot Type.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="程序生成规范" Type="Build"/>
+		<Item Name="程序生成规范" Type="Build">
+			<Item Name="2601B_Test" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9E86EE18-6C14-45C4-9035-DF4C640B2CFB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B69FF26A-B6C3-43A1-B7EC-EC4A89D0BF8F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3D297CC8-E510-4544-928F-A1170532D488}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">2601B_Test</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/2601B_Test</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DE32F8F7-81DD-404E-8BE7-DE65ACF155EC}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">2601B_Test.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/2601B_Test/2601B_Test.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/2601B_Test/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{717462E8-F3A9-4436-986F-31092C2045E3}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{7FD37BD8-8CD3-445D-A0E9-1D0D2F8A8DCF}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{16C3EEC1-0B52-4792-83B4-2E64E31F6225}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{07BF699F-C609-4671-BEF0-02B57F3E4396}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{CF33350A-2F7A-4135-B77C-D6D79F637E70}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{E12F2550-DDE5-4C86-B4BC-3FAF63A4D621}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{C21219DC-4902-4D95-BABF-AD91B5302D05}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{4BE9D8F8-E7F9-4FE7-A44D-175344B4502F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{05DC93CF-37B1-497D-A58D-D884BAEDBDD9}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{0FB30970-F838-43D5-8CA3-35A615FCDCD8}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{5B747C95-0DF8-40AF-81A4-08327427C703}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{A8D8E12B-8112-4224-BA9E-338BB6E25124}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{C1D471A8-90F4-4EDD-B543-657E7CF60AD3}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{031326EE-D958-4D79-8FE7-C355CA75C16E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{3ECE44F7-6D48-44AD-899A-E5A82B1ACDB8}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{7D00581C-3EC0-4147-98A0-0608A1A4A433}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{417F8527-0F7F-4CBB-907C-B0AC4259DA51}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{C1DE1295-497D-48AE-B8ED-3E69310FA9E6}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{8F91D018-2B48-41C7-BE59-D9185B0FA108}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{A01FDABA-B190-47EC-AE3C-6BB1F6F2D416}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{4EFDEDB8-242C-407C-8857-8B4FFFFD5880}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{92DB05CD-06B3-45B6-B0A9-7AAE6A1FD7F1}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{D31D58C4-8C2F-4788-BF4A-1CED48989026}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{10C63287-2C09-47E0-B361-3D036B85BE4E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{BDBD74CA-6E10-470B-A9F6-CAE1A2A5385E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{E5F0C7A6-CDB4-4D89-86CD-1D2DB7219C92}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{F16D6EFA-C96A-4DF2-A28F-BBDFB97BE7A5}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{8D977BF0-A55C-4A51-9E9E-D3C57529A333}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{C2EAFC2E-A13C-41DD-A47F-84D43998C6A9}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{B0B88393-C330-4F18-93DA-F4B10CDE70A2}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{97BA2087-5817-4ED8-A293-0701356AC913}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">BTest</Property>
+				<Property Name="Exe_actXServerName" Type="Str">BTest</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str">{1A933F0D-3AC8-48DC-A905-DD31EAC017AE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1FC35311-1EE5-4678-818F-FC9EA041B5BB}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/2601B_Test/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">2601B_Test</Property>
+				<Property Name="TgtF_internalName" Type="Str">2601B_Test</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">2601B_Test</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{AA21C271-EBBF-4E5B-A4DE-1967194A6EF8}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">2601B_Test.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="校准时间" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1569E172-4977-4378-B8AE-932B31FB116B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E0C0A333-6604-412B-8C9E-8266805B55A3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1B71D9DE-84AF-4F87-8CC8-16D0C9675089}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">校准时间</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/2601B_Test</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{76BE2CBD-2A28-4F64-8A04-55836AA1E06C}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">校准时间.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/2601B_Test/校准时间.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/2601B_Test/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1FC35311-1EE5-4678-818F-FC9EA041B5BB}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/2601B_Test/依赖/lib/校准时间.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">校准时间</Property>
+				<Property Name="TgtF_internalName" Type="Str">校准时间</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">校准时间</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F1EF3961-84A5-4A35-99E0-7D906A04A936}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">校准时间.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

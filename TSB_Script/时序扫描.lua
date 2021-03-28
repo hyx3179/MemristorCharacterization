@@ -4,7 +4,6 @@ limit_I = 0.001
 timePoint = 110E-6 -- > 66 微秒
 nplc = 2E-3
 
-
 List = {}
 Points = Voltage / Voltage_Change + 1
 for i = 1, Points do List[i] = 0 + (i - 1) * Voltage_Change end
@@ -39,23 +38,39 @@ trigger.timer[1].passthrough = false
 trigger.timer[1].delay = timePoint
 trigger.timer[1].count = table.getn(List)
 
-
-
 smua.source.output = smua.OUTPUT_ON
 smua.trigger.initiate()
 delay(1e-3)
 smua.trigger.arm.set()
 
 function _done()
+    Start = 1
+    Stop = 100
     repeat
         if (bit.test(status.operation.instrument.smua.condition, 4) == false) then
             smua.source.leveli = 0
             smua.source.levelv = 0
             smua.source.output = smua.OUTPUT_OFF
             print("{done}")
+            Stop = table.getn(List)
+            print("{measurevalues}")
+            printbuffer(Start, Stop, smua.nvbuffer1)
+            print("{sourcevalues}")
+            printbuffer(Start, Stop, smua.nvbuffer1.sourcevalues)
+            print("{timestamps}")
+            printbuffer(Start, Stop, smua.nvbuffer1.timestamps)
             return
+        elseif (print(smua.nvbuffer1.n) > Stop) then
+            print("{measurevalues}")
+            printbuffer(Start, Stop, smua.nvbuffer1)
+            print("{sourcevalues}")
+            printbuffer(Start, Stop, smua.nvbuffer1.sourcevalues)
+            print("{timestamps}")
+            printbuffer(Start, Stop, smua.nvbuffer1.timestamps)
+            Start = Start + 100
+            Stop = Stop + 100
         end
-        delay(0.1)
+        delay(timePoint * 100)
     until (false)
 end
 _done()

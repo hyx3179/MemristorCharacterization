@@ -35,9 +35,9 @@ trigger.timer[1].delay = timePoint
 trigger.timer[1].count = Points
 
 smua.source.output = smua.OUTPUT_ON
-smua.source.levelv = Voltage
 smua.trigger.initiate()
 delay(1e-3)
+smua.source.levelv = Voltage
 smua.trigger.arm.set()
 
 function _done()
@@ -63,7 +63,7 @@ function _done()
             Start = Start + Number_of_sing_lereads
             Stop = Stop + Number_of_sing_lereads
         end
-        delay(timePoint * Number_of_sing_lereads)
+        delay(timePoint)
     until (false)
 end
 _done()

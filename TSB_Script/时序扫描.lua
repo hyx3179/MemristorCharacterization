@@ -19,19 +19,21 @@ smua.sense = smua.SENSE_REMOTE
 smua.source.func = smua.OUTPUT_DCVOLTS
 smua.source.limiti = limit_I
 smua.measure.autozero = smua.AUTOZERO_ONCE
-
 smua.measure.nplc = nplc
+
 smua.source.autorangev = smua.AUTORANGE_OFF
 smua.source.rangev = Voltage
 smua.measure.autorangei = smua.AUTORANGE_OFF
 smua.measure.rangei = limit_I
+
 smua.trigger.source.listv(List)
 smua.trigger.measure.i(smua.nvbuffer1)
-smua.trigger.arm.stimulus = trigger.EVENT_ID
 smua.trigger.source.stimulus = trigger.timer[1].EVENT_ID
 smua.trigger.source.action = smua.ENABLE
 smua.trigger.measure.action = smua.ENABLE
 smua.trigger.count = table.getn(List)
+
+smua.trigger.arm.stimulus = trigger.EVENT_ID
 trigger.timer[1].reset()
 trigger.timer[1].stimulus = smua.trigger.ARMED_EVENT_ID
 trigger.timer[1].passthrough = false
@@ -45,32 +47,28 @@ smua.trigger.arm.set()
 
 function _done()
     Start = 1
-    Stop = 100
+    Stop = Number_of_sing_lereads
     repeat
         if (bit.test(status.operation.instrument.smua.condition, 4) == false) then
             smua.source.leveli = 0
             smua.source.levelv = 0
             smua.source.output = smua.OUTPUT_OFF
-            print("{done}")
             Stop = table.getn(List)
-            print("{measurevalues}")
-            printbuffer(Start, Stop, smua.nvbuffer1)
-            print("{sourcevalues}")
-            printbuffer(Start, Stop, smua.nvbuffer1.sourcevalues)
-            print("{timestamps}")
+            print("{" .. Stop - Start + 1 .. "}")
             printbuffer(Start, Stop, smua.nvbuffer1.timestamps)
+            printbuffer(Start, Stop, smua.nvbuffer1.sourcevalues)
+            printbuffer(Start, Stop, smua.nvbuffer1)
+            print("{done}")
             return
-        elseif (print(smua.nvbuffer1.n) > Stop) then
-            print("{measurevalues}")
-            printbuffer(Start, Stop, smua.nvbuffer1)
-            print("{sourcevalues}")
-            printbuffer(Start, Stop, smua.nvbuffer1.sourcevalues)
-            print("{timestamps}")
+        elseif (smua.nvbuffer1.n > Stop) then
+            print("{" .. Number_of_sing_lereads .. "}")
             printbuffer(Start, Stop, smua.nvbuffer1.timestamps)
-            Start = Start + 100
-            Stop = Stop + 100
+            printbuffer(Start, Stop, smua.nvbuffer1.sourcevalues)
+            printbuffer(Start, Stop, smua.nvbuffer1)
+            Start = Start + Number_of_sing_lereads
+            Stop = Stop + Number_of_sing_lereads
         end
-        delay(timePoint * 100)
+        delay(timePoint)
     until (false)
 end
 _done()

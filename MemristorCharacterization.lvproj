@@ -61,6 +61,7 @@
 				<Item Name="Increment Filter.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Increment Filter.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Map Setup.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Setup.vi"/>
 				<Item Name="Map Value to Pixel.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Value to Pixel.vi"/>
@@ -93,6 +94,85 @@
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
+			<Item Name="ECA200TEST" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CC238488-450C-4B35-94CD-138A0C5CD405}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{42113BE8-4E9A-4ACC-A19B-A9FC76BCF8FD}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FDEBC6FF-F4C0-47B5-8E10-9A3509AB2FAB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ECA200TEST</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ECA200TEST</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BB3533B6-5D1E-435B-B278-093966A46934}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ECA200TEST.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ECA200TEST/ECA200TEST.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ECA200TEST/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{8EEF0859-C5D3-4DA9-8332-A6D25264FA35}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{7F673C21-258A-4A6F-951F-D37378B9B3BE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{5D7BEE4B-5870-45B1-AC07-05A917C83A96}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{8629F9D0-AA10-4EFF-8495-BFBFCE54EE33}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{FD616930-7968-40E6-ACF1-41C359238AFF}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{92DFB2BF-F71A-4F5F-9C5D-3DE7DE9E8E1D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{3F0A3387-E27C-4EDF-BA51-2BE4082C3A86}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{1F2F831D-983F-4D28-84F6-D8FDD3B036F8}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{E2D709C7-0494-4A5F-822C-3BCB76409369}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{D7C1AE5B-7443-4FAC-BB61-841C0D3BA4DE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{6CCFF0E6-0A6B-42E0-8FF9-2F1AC050782F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{749E0163-F0AF-4B62-B9A3-2A069652B849}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{62EF07F2-D9F5-4AD2-A380-AF6AB99D41ED}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{DF3DCEF7-4962-4397-9CC7-56095BDD42C3}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{FB7E9418-122D-4E1E-8685-D78846E74546}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{86ADE157-8068-4F63-8F01-C4C24ECE2B12}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{AF460D65-B408-42B8-8F12-530E8E738E03}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{C6A512F6-9784-4B81-8BCD-3E8A6A199CFE}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{FF06FC3F-DFA7-4B3E-A63C-BCEC45A79E2D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{41EBE73D-E721-4A03-B8DF-47CFF62646FA}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{79389613-18D3-486E-BA7F-8B0583302807}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{FFE698F6-D49D-4E1D-9680-C6EB8BCB356F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{E7BFA0DC-3CE2-45F0-8720-DF36CA93DC93}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{1D64B6A1-4AE1-4F5F-AC1E-DBEA202E97AD}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{DCFB4482-48E1-4A73-B446-3C61132F4439}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{85C32964-7D95-44E9-A2A7-2546586EC281}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{571F9E57-81BC-42D3-8348-F06E65E05F09}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{DBF95202-9D69-46DD-B2CC-B05BEFCBD86B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{291CE093-BC1D-48D1-9699-4446554C577E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{B5ACDBDD-69F8-4D40-91F2-3F9422CBD24C}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{F43CB17A-6557-4CDD-B416-E8BD1E551EE9}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">ECA200TEST</Property>
+				<Property Name="Exe_actXServerName" Type="Str">ECA200TEST</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{5E00B7DF-ACB0-49C8-AE17-2CDE9A58E98B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/依赖/lib/ECA200.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ECA200TEST</Property>
+				<Property Name="TgtF_internalName" Type="Str">ECA200TEST</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">ECA200TEST</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7515DE49-8DC6-451B-BFDA-5799CC2B4A10}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ECA200TEST.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="校准时间" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7BC20D29-25D9-4BE7-9C9C-B1448E8EBE31}</Property>

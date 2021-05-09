@@ -156,7 +156,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3B0DBF97-45B9-4C45-BF5C-C01047C7F5E7}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IV表征.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/IV表征.exe</Property>
@@ -166,7 +166,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6DB9C08B-C26A-4C8A-8C79-CDDB29E47177}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B35A691C-2D81-47CE-968E-7BD9EE7BFAE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/IVCharacterization.vi</Property>
@@ -198,7 +198,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{269D6245-C464-4892-9A4B-DD3149DD17E5}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">校准时间.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/校准时间/校准时间.exe</Property>
@@ -207,10 +207,10 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/校准时间/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6DB9C08B-C26A-4C8A-8C79-CDDB29E47177}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B35A691C-2D81-47CE-968E-7BD9EE7BFAE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/依赖/2601B/校准时间.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/依赖/KeithleyTSP/校准时间.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>

@@ -156,7 +156,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3B0DBF97-45B9-4C45-BF5C-C01047C7F5E7}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IV表征.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/IV表征.exe</Property>
@@ -166,7 +166,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2CA0E301-9A3F-4D32-BBE9-26CAB02EF051}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{412F4D5A-5D84-44A3-8139-11DDA5B9E6C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/IVCharacterization.vi</Property>
@@ -179,6 +179,47 @@
 				<Property Name="TgtF_productName" Type="Str">IV表征</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{241AF537-072F-4507-ABCD-C7E563F3CCFB}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">IV表征.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="保存数据到USB" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{14108B69-F87F-4418-9F23-4B065872610C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{28E00D96-CEF3-4971-AD05-F4D2C9565719}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{694EF9FF-93AC-4C5F-93FB-6206F3C3CEF2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">保存数据到USB</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/保存数据到USB</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{390E1423-23AB-4567-9378-FC0E320FED8B}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">保存数据到USB.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/保存数据到USB/保存数据到USB.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/保存数据到USB/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{43202DDB-AE11-47BA-A2B3-961B9C390ECC}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/依赖/KeithleyTSP/保存数据到USB.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">保存数据到USB</Property>
+				<Property Name="TgtF_internalName" Type="Str">保存数据到USB</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">保存数据到USB</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A3EC2185-4F30-4113-B5CA-1122E51827AA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">保存数据到USB.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="校准时间" Type="EXE">

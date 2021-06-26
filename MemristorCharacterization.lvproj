@@ -156,7 +156,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3B0DBF97-45B9-4C45-BF5C-C01047C7F5E7}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IV表征.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/IV表征.exe</Property>
@@ -166,7 +166,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7B1FC776-7AFF-4882-8670-5DFA8E350BEB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3FD66FC6-082D-461E-A0F5-C322285F8345}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/MemristorCharacterization/IVCharacterization.vi</Property>

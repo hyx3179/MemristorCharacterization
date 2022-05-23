@@ -1,0 +1,3 @@
+[submodule "QueueLib"]
+	path = QueueLib
+	url = git@github.com:hyx3179/QueueLib.git

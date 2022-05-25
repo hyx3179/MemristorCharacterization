@@ -14,7 +14,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="队列.lvlib" Type="Library" URL="../../../LabVIEW Lib/队列/队列.lvlib"/>
+		<Item Name="QueueLib.lvlib" Type="Library" URL="../QueueLib/QueueLib.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

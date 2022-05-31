@@ -16,43 +16,20 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Normalize Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Normalize Waveform.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
@@ -69,7 +46,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{0D8351A6-C365-4B62-ABC3-C19D6407A692}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{7580D673-42B3-400F-B45D-87DCFD75C0DB}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">IV</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
@@ -80,7 +56,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D19043B0-DB16-40D3-8E14-3E3EDDC75798}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IV.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV/IV.exe</Property>
@@ -89,45 +64,45 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{3469F10D-F28A-4EBE-8A7F-D97DEA324068}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{B472287C-57A0-4361-9B86-0017317A490F}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{D1646EDD-3264-43E5-A009-C585FE19F84C}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{F545AB20-8D19-4236-BF48-0CBB7062AFE1}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{F91EE81F-565D-464A-B1FF-64B977FC6B8B}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{1C13FABB-D04B-450D-B918-D07F27EBF4DC}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{AA000741-AFDD-4FA9-834F-F0EEC3875EBE}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{C3BE4A7B-DA9B-4EC1-B6E6-9DE972F9E164}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{43F8F0EA-2D95-468E-9314-F23E8022C7F5}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{698680DA-E348-4AE2-AE53-B156356A008C}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{E579FBA6-93DD-4CE5-9CFA-BB53B8699D29}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{E71A390F-DB9C-4A05-9F6D-A4A28D697355}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{1D7EBB57-5C21-4A53-B81E-35345B75F06E}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{D1EF85B9-DD0E-4646-91D7-9A88F2B26CA6}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{C05A34A1-DB23-4C7D-9E4C-DFEF79B121D9}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{8E1ACE61-17C3-40C1-9144-EA0AE792781B}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{6772FD13-14F8-493A-81BB-E8D87508ACAE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{C99B672A-5334-4291-81B3-46F5799DCFA3}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{D5257FAD-37B7-415C-B33A-E4C0C696C02C}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{9F4FFF5A-7E2D-4B1D-8DCC-E1CA71DAF8E0}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{78D5BD07-920B-4DCD-B334-8F94C4683719}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{9CA1A012-20DE-45D2-915C-ECD68885F9EE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{C5D937CC-4B3F-462A-A82B-FAC0899D20F4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{2B9A083C-42A2-4C01-B2AC-4999E91F1BC1}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{07075120-F4EA-4B4B-8F9B-0F924DC1072B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{5368A389-7D9B-4828-8F5A-10A481ECB429}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{21BCBEE6-AD48-471B-9B42-4F0C57E22426}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{DAC9F8C0-4171-4309-B2B1-76CA55F9EA80}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{90C4BB18-8454-4137-B72E-20B62D475D17}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{1B0D9087-D606-44CF-8822-4C69FADC567D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{B7AB5C16-7495-4ADE-871A-BE7B3E1E02BF}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{04C58DFC-9BAD-4724-BD3B-0DD267050237}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{1AB46447-3CEF-4B34-8D31-40D369DD7348}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{38A548D0-0134-4468-80B7-9AF9BA31A184}</Property>
 				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
 				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
 				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{7FFD2688-4587-4CA6-A946-653F70D2863B}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{014CF3FD-7FA1-4404-8BC5-FEBA7EF3C417}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{1ED28144-A399-4FDC-90C5-36608465FDC5}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{CE6508EA-8455-4188-95AD-164EEA485C8D}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{E8F3944A-57DF-4784-B56D-1E67AE1CC7C1}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{72A50555-AFB2-4B58-8FA0-A19EEDB9B1C6}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{C3650CF2-0C1F-451D-99A7-C64BF59DE4EB}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{C17445FC-CD5E-442D-8421-7D1FCA16E2E6}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{D43029F4-A7D6-4A80-B256-376086800FA3}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{2AA9AE65-946D-41F5-938F-5B37AF1E51AB}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{E95F8929-2820-445F-AD00-1782480DE506}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{1F731959-9F92-4055-BAD6-A349E4AA57EE}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{B5EECDD1-96F6-46B2-88B3-7C4AB6DDA9FD}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{3ECC6A92-91F4-4F60-B9B6-AE7B8A9F71BE}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{815996C2-28A3-4B9F-8237-3A8D910B78A4}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{C50CE397-3803-42F3-98BA-171EECBAA332}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{2964F191-22A7-45A7-9EEB-27B5A35183B1}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{1B6B8265-B49E-4143-9E20-61ABFCF3E909}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{B8BF3906-1E1B-4AEA-B9E7-117A8F666F8F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{CB2B7A13-EF5A-4477-B7C5-2823FD672E10}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{EC72AFF6-E56D-47B0-9D92-8341F865ABD6}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{1F576A74-64A1-487C-B7A9-CF180777EB79}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{C8CD5E7D-933C-4714-882A-1137B928CA7E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{F27D563C-CE78-4928-B19F-5E9F7A7AC4AB}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{6DEAAFEF-8EE9-43FC-9220-E4A5E36E0B46}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{E4D4B9AC-0444-421F-BC3A-AF3A429F6990}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{EF65454A-0896-4269-A82F-9F02BE38EE0D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{185D6F1D-55D1-4521-92C9-845FDA2C4335}</Property>
 				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">IV</Property>
 				<Property Name="Exe_actXServerName" Type="Str">IV</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{1A71686A-392C-4DD3-AA11-B79A9718BAB5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FC1F6D30-ADB7-4B8B-ACEA-D501E0BD3EF2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/main.vi</Property>

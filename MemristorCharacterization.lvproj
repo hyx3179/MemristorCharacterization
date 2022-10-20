@@ -78,7 +78,7 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV表征/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/lib/icon.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/Lib/icon.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{9C8E7787-2186-4124-915D-31B04A1907E1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -127,23 +127,17 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据处理/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/lib/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DBF2699A-A88D-4681-8EB8-0B237DB95EB0}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/Lib/icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4950D1F6-56FE-4330-8F9C-E110CF480C09}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/main.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/数据处理.vi</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Show toolbar</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Show horizontal scroll bar</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Show menu bar</Property>
-				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">4</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>

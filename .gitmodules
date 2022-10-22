@@ -1,0 +1,15 @@
+[submodule "LabView Lib/Base64"]
+	path = LabView Lib/Base64
+	url = git@github.com:hyx3179-LabView/Base64.git
+[submodule "LabView Lib/LogLib"]
+	path = LabView Lib/LogLib
+	url = git@github.com:hyx3179-LabView/LogLib.git
+[submodule "LabView Lib/QueueLib"]
+	path = LabView Lib/QueueLib
+	url = git@github.com:hyx3179-LabView/QueueLib.git
+[submodule "LabView Lib/TableLib"]
+	path = LabView Lib/TableLib
+	url = git@github.com:hyx3179-LabView/TableLib.git
+[submodule "LabView Lib/UMLib"]
+	path = LabView Lib/UMLib
+	url = git@github.com:hyx3179-LabView/UMLib.git

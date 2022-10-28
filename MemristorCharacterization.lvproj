@@ -196,7 +196,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{282A4334-1B83-4C54-869C-70AF4EE825C9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A921A440-A2E5-4F85-8FDB-7E5FD3729088}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">数据格式转化</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
@@ -207,7 +206,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D2BC4BB-FA55-4471-86F9-A700110CDABA}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">数据格式转化.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据格式转化/数据格式转化.exe</Property>
@@ -216,7 +214,7 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据格式转化/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6C6B6907-86CC-4E32-9D42-A841006A5A15}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{69DBD117-02FE-4E64-87D1-7C20FF7776F2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Lib/数据处理/数据格式转化.vi</Property>

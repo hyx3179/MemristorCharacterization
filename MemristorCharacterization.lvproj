@@ -15,15 +15,15 @@
 		<Item Name="GUI" Type="Folder" URL="../GUI">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="LabView Lib" Type="Folder">
-			<Item Name="Base64.lvlib" Type="Library" URL="../LabView Lib/Base64/Base64.lvlib"/>
-			<Item Name="LogLib.lvlib" Type="Library" URL="../LabView Lib/LogLib/LogLib.lvlib"/>
-			<Item Name="QueueLib.lvlib" Type="Library" URL="../LabView Lib/QueueLib/QueueLib.lvlib"/>
-			<Item Name="TableLib.lvlib" Type="Library" URL="../LabView Lib/TableLib/TableLib.lvlib"/>
-			<Item Name="UMLib.lvlib" Type="Library" URL="../LabView Lib/UMLib/UMLib.lvlib"/>
-		</Item>
 		<Item Name="Lib" Type="Folder" URL="../Lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="viLib" Type="Folder">
+			<Item Name="Base64.lvlib" Type="Library" URL="../viLib/Base64/Base64.lvlib"/>
+			<Item Name="LogLib.lvlib" Type="Library" URL="../viLib/LogLib/LogLib.lvlib"/>
+			<Item Name="QueueLib.lvlib" Type="Library" URL="../viLib/QueueLib/QueueLib.lvlib"/>
+			<Item Name="TableLib.lvlib" Type="Library" URL="../viLib/TableLib/TableLib.lvlib"/>
+			<Item Name="UMLib.lvlib" Type="Library" URL="../viLib/UMLib/UMLib.lvlib"/>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -132,7 +132,7 @@
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/LabView Lib/UMLib.lvlib/用户管理主界面.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/viLib/UMLib.lvlib/用户管理主界面.vi</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Show toolbar</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>

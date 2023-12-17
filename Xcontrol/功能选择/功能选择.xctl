@@ -37,11 +37,16 @@
 	</Item>
 	<Item Name="属性" Type="Folder"/>
 	<Item Name="子VI" Type="Folder">
-		<Item Name="保持时间脚本.vi" Type="VI" URL="../子VI/保持时间脚本.vi"/>
-		<Item Name="脉冲脚本.vi" Type="VI" URL="../子VI/脉冲脚本.vi"/>
-		<Item Name="扫描脚本.vi" Type="VI" URL="../子VI/扫描脚本.vi"/>
+		<Item Name="2601B" Type="Folder">
+			<Item Name="保持时间脚本.vi" Type="VI" URL="../子VI/保持时间脚本.vi"/>
+			<Item Name="脉冲脚本.vi" Type="VI" URL="../子VI/脉冲脚本.vi"/>
+			<Item Name="扫描脚本.vi" Type="VI" URL="../子VI/扫描脚本.vi"/>
+			<Item Name="循环脉冲脚本.vi" Type="VI" URL="../子VI/循环脉冲脚本.vi"/>
+			<Item Name="循环扫描脚本.vi" Type="VI" URL="../子VI/循环扫描脚本.vi"/>
+		</Item>
+		<Item Name="波形编辑.vi" Type="VI" URL="../子VI/波形编辑.vi"/>
+		<Item Name="生成LOG波形.vi" Type="VI" URL="../子VI/生成LOG波形.vi"/>
+		<Item Name="生成任意波形.vi" Type="VI" URL="../子VI/生成任意波形.vi"/>
 		<Item Name="时序检查.vi" Type="VI" URL="../子VI/时序检查.vi"/>
-		<Item Name="循环脉冲脚本.vi" Type="VI" URL="../子VI/循环脉冲脚本.vi"/>
-		<Item Name="循环扫描脚本.vi" Type="VI" URL="../子VI/循环扫描脚本.vi"/>
 	</Item>
 </XControl>

@@ -52,6 +52,7 @@
 			<Item Name="循环扫描脚本.vi" Type="VI" URL="../子VI/循环扫描脚本.vi"/>
 		</Item>
 		<Item Name="波形编辑.vi" Type="VI" URL="../子VI/波形编辑.vi"/>
+		<Item Name="脉冲编辑.vi" Type="VI" URL="../子VI/脉冲编辑.vi"/>
 		<Item Name="生成LOG波形.vi" Type="VI" URL="../子VI/生成LOG波形.vi"/>
 		<Item Name="生成电压序列.vi" Type="VI" URL="../子VI/生成电压序列.vi"/>
 		<Item Name="生成任意波形.vi" Type="VI" URL="../子VI/生成任意波形.vi"/>

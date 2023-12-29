@@ -33,7 +33,6 @@
 	<Item Name="控件" Type="Folder">
 		<Item Name="保持时间.ctl" Type="VI" URL="../控件/保持时间.ctl"/>
 		<Item Name="方向属性.ctl" Type="VI" URL="../控件/方向属性.ctl"/>
-		<Item Name="脉冲参数.ctl" Type="VI" URL="../控件/脉冲参数.ctl"/>
 		<Item Name="扫描参数.ctl" Type="VI" URL="../控件/扫描参数.ctl"/>
 	</Item>
 	<Item Name="属性" Type="Folder">
@@ -47,13 +46,14 @@
 	<Item Name="子VI" Type="Folder">
 		<Item Name="2601B" Type="Folder">
 			<Item Name="保持时间脚本.vi" Type="VI" URL="../子VI/保持时间脚本.vi"/>
-			<Item Name="脉冲脚本.vi" Type="VI" URL="../子VI/脉冲脚本.vi"/>
+			<Item Name="高速脉冲脚本.vi" Type="VI" URL="../子VI/高速脉冲脚本.vi"/>
+			<Item Name="任意波形脚本.vi" Type="VI" URL="../子VI/任意波形脚本.vi"/>
 			<Item Name="扫描脚本.vi" Type="VI" URL="../子VI/扫描脚本.vi"/>
-			<Item Name="循环脉冲脚本.vi" Type="VI" URL="../子VI/循环脉冲脚本.vi"/>
 			<Item Name="循环扫描脚本.vi" Type="VI" URL="../子VI/循环扫描脚本.vi"/>
 		</Item>
 		<Item Name="波形编辑.vi" Type="VI" URL="../子VI/波形编辑.vi"/>
 		<Item Name="生成LOG波形.vi" Type="VI" URL="../子VI/生成LOG波形.vi"/>
+		<Item Name="生成电压序列.vi" Type="VI" URL="../子VI/生成电压序列.vi"/>
 		<Item Name="生成任意波形.vi" Type="VI" URL="../子VI/生成任意波形.vi"/>
 		<Item Name="时序检查.vi" Type="VI" URL="../子VI/时序检查.vi"/>
 	</Item>

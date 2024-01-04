@@ -35,7 +35,13 @@
 		<Item Name="方向属性.ctl" Type="VI" URL="../控件/方向属性.ctl"/>
 		<Item Name="扫描参数.ctl" Type="VI" URL="../控件/扫描参数.ctl"/>
 	</Item>
-	<Item Name="属性" Type="Folder"/>
+	<Item Name="属性" Type="Folder">
+		<Item Name="测试参数" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">测试参数</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">测试参数</Property>
+			<Item Name="测试参数读取.vi" Type="Property VI" URL="../属性/测试参数读取.vi"/>
+		</Item>
+	</Item>
 	<Item Name="子VI" Type="Folder">
 		<Item Name="2601B" Type="Folder">
 			<Item Name="保持时间脚本.vi" Type="VI" URL="../子VI/保持时间脚本.vi"/>

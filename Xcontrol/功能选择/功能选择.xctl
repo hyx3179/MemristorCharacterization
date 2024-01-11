@@ -26,6 +26,9 @@
 		<Item Name="外观.vi" Type="Ability VI" URL="../外观.vi">
 			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 		</Item>
+		<Item Name="转换需保存的状态.vi" Type="Ability VI" URL="../转换需保存的状态.vi">
+			<Property Name="NI.XItem.Name" Type="Str">ConvertStateForSave</Property>
+		</Item>
 		<Item Name="状态.ctl" Type="Ability VI" URL="../状态.ctl">
 			<Property Name="NI.XItem.Name" Type="Str">State</Property>
 		</Item>

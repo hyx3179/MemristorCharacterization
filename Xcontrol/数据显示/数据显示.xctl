@@ -33,10 +33,10 @@
 		<Item Name="映射方式.ctl" Type="VI" URL="../控件/映射方式.ctl"/>
 	</Item>
 	<Item Name="属性" Type="Folder">
-		<Item Name="扫描" Type="Property Folder">
+		<Item Name="功能" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">扫描</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">扫描</Property>
-			<Item Name="扫描写入.vi" Type="Property VI" URL="../属性/扫描写入.vi"/>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">功能</Property>
+			<Item Name="功能写入.vi" Type="Property VI" URL="../属性/功能写入.vi"/>
 		</Item>
 		<Item Name="完成" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">完成</Property>

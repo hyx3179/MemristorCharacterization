@@ -13,7 +13,6 @@
 
 </Property>
 	<Item Name="方法" Type="Folder">
-		<Item Name="打开数据库.vi" Type="Method VI" URL="../方法/打开数据库.vi"/>
 		<Item Name="获取脚本.vi" Type="Method VI" URL="../方法/获取脚本.vi"/>
 	</Item>
 	<Item Name="功能" Type="Folder">
@@ -54,10 +53,11 @@
 			<Item Name="循环扫描脚本.vi" Type="VI" URL="../子VI/循环扫描脚本.vi"/>
 		</Item>
 		<Item Name="波形编辑.vi" Type="VI" URL="../子VI/波形编辑.vi"/>
+		<Item Name="波形描述检查.vi" Type="VI" URL="../子VI/波形描述检查.vi"/>
 		<Item Name="脉冲编辑.vi" Type="VI" URL="../子VI/脉冲编辑.vi"/>
 		<Item Name="生成LOG波形.vi" Type="VI" URL="../子VI/生成LOG波形.vi"/>
 		<Item Name="生成电压序列.vi" Type="VI" URL="../子VI/生成电压序列.vi"/>
+		<Item Name="生成脉冲波形.vi" Type="VI" URL="../子VI/生成脉冲波形.vi"/>
 		<Item Name="生成任意波形.vi" Type="VI" URL="../子VI/生成任意波形.vi"/>
-		<Item Name="时序检查.vi" Type="VI" URL="../子VI/时序检查.vi"/>
 	</Item>
 </XControl>

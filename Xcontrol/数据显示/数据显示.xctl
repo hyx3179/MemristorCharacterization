@@ -40,6 +40,10 @@
 		</Item>
 	</Item>
 	<Item Name="子VI" Type="Folder">
+		<Item Name="高速脉冲绘制.vi" Type="VI" URL="../子VI/高速脉冲绘制.vi"/>
+		<Item Name="任意波形绘制.vi" Type="VI" URL="../子VI/任意波形绘制.vi"/>
+		<Item Name="扫描绘制.vi" Type="VI" URL="../子VI/扫描绘制.vi"/>
+		<Item Name="设置曲线属性.vi" Type="VI" URL="../子VI/设置曲线属性.vi"/>
 		<Item Name="刷新.vi" Type="VI" URL="../子VI/刷新.vi"/>
 	</Item>
 </XControl>

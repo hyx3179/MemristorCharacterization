@@ -38,11 +38,6 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">功能</Property>
 			<Item Name="功能写入.vi" Type="Property VI" URL="../属性/功能写入.vi"/>
 		</Item>
-		<Item Name="完成" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">完成</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">完成</Property>
-			<Item Name="完成写入.vi" Type="Property VI" URL="../属性/完成写入.vi"/>
-		</Item>
 	</Item>
 	<Item Name="子VI" Type="Folder">
 		<Item Name="刷新.vi" Type="VI" URL="../子VI/刷新.vi"/>

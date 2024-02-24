@@ -17,18 +17,24 @@
 		<Item Name="初始化.vi" Type="Ability VI" URL="../初始化.vi">
 			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 		</Item>
+		<Item Name="反初始化.vi" Type="Ability VI" URL="../反初始化.vi">
+			<Property Name="NI.XItem.Name" Type="Str">UnInit</Property>
+		</Item>
 		<Item Name="数据.ctl" Type="Ability VI" URL="../数据.ctl">
 			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 		</Item>
 		<Item Name="外观.vi" Type="Ability VI" URL="../外观.vi">
 			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 		</Item>
-		<Item Name="转换需保存的状态.vi" Type="VI" URL="../转换需保存的状态.vi"/>
+		<Item Name="转换需保存的状态.vi" Type="Ability VI" URL="../转换需保存的状态.vi">
+			<Property Name="NI.XItem.Name" Type="Str">ConvertStateForSave</Property>
+		</Item>
 		<Item Name="状态.ctl" Type="Ability VI" URL="../状态.ctl">
 			<Property Name="NI.XItem.Name" Type="Str">State</Property>
 		</Item>
 	</Item>
 	<Item Name="控件" Type="Folder">
+		<Item Name="波形数据定义.ctl" Type="VI" URL="../控件/波形数据定义.ctl"/>
 		<Item Name="曲线设置.ctl" Type="VI" URL="../控件/曲线设置.ctl"/>
 		<Item Name="映射方式.ctl" Type="VI" URL="../控件/映射方式.ctl"/>
 	</Item>
@@ -37,6 +43,16 @@
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">扫描</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">功能</Property>
 			<Item Name="功能写入.vi" Type="Property VI" URL="../属性/功能写入.vi"/>
+		</Item>
+		<Item Name="数据属性" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">数据属性</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">数据属性</Property>
+			<Item Name="数据属性写入.vi" Type="Property VI" URL="../属性/数据属性写入.vi"/>
+		</Item>
+		<Item Name="突变电压" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">突变电压</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">突变电压</Property>
+			<Item Name="突变电压读取.vi" Type="Property VI" URL="../属性/突变电压读取.vi"/>
 		</Item>
 	</Item>
 	<Item Name="子VI" Type="Folder">

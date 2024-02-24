@@ -13,11 +13,71 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="GUI" Type="Folder" URL="../GUI">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="GUI" Type="Folder">
+			<Item Name="测试.vi" Type="VI" URL="../GUI/测试.vi"/>
+			<Item Name="导电机制拟合.vi" Type="VI" URL="../GUI/导电机制拟合.vi"/>
+			<Item Name="数据处理.vi" Type="VI" URL="../GUI/数据处理.vi"/>
+			<Item Name="数据摘要显示.vi" Type="VI" URL="../GUI/数据摘要显示.vi"/>
 		</Item>
-		<Item Name="Lib" Type="Folder" URL="../Lib">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Lib" Type="Folder">
+			<Item Name="控件" Type="Folder">
+				<Item Name="XY图.ctl" Type="VI" URL="../Lib/控件/XY图.ctl"/>
+				<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/控件/测试数据类型.ctl"/>
+				<Item Name="队列组.ctl" Type="VI" URL="../Lib/控件/队列组.ctl"/>
+				<Item Name="脉冲参数.ctl" Type="VI" URL="../Lib/控件/脉冲参数.ctl"/>
+				<Item Name="曲线设置.ctl" Type="VI" URL="../Lib/控件/曲线设置.ctl"/>
+				<Item Name="曲线属性.ctl" Type="VI" URL="../Lib/控件/曲线属性.ctl"/>
+				<Item Name="扫描参数.ctl" Type="VI" URL="../Lib/控件/扫描参数.ctl"/>
+				<Item Name="维持时间.ctl" Type="VI" URL="../Lib/控件/维持时间.ctl"/>
+				<Item Name="坐标轴映射.ctl" Type="VI" URL="../Lib/控件/坐标轴映射.ctl"/>
+			</Item>
+			<Item Name="数据保存" Type="Folder">
+				<Item Name="TDMS引用.vi" Type="VI" URL="../Lib/数据保存/TDMS引用.vi"/>
+				<Item Name="打包属性.vi" Type="VI" URL="../Lib/数据保存/打包属性.vi"/>
+				<Item Name="打开文件.vi" Type="VI" URL="../Lib/数据保存/打开文件.vi"/>
+				<Item Name="写入属性.vi" Type="VI" URL="../Lib/数据保存/写入属性.vi"/>
+				<Item Name="写入数据.vi" Type="VI" URL="../Lib/数据保存/写入数据.vi"/>
+			</Item>
+			<Item Name="数据处理" Type="Folder">
+				<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/布尔非转非法数字.vi"/>
+				<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/测试类型.ctl"/>
+				<Item Name="导出扫描测试数据.vi" Type="VI" URL="../Lib/数据处理/导出扫描测试数据.vi"/>
+				<Item Name="电流插值.vi" Type="VI" URL="../Lib/数据处理/电流插值.vi"/>
+				<Item Name="读取数据文件.vi" Type="VI" URL="../Lib/数据处理/读取数据文件.vi"/>
+				<Item Name="读取组属性.vi" Type="VI" URL="../Lib/数据处理/读取组属性.vi"/>
+				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>
+				<Item Name="获取扫描电压.vi" Type="VI" URL="../Lib/数据处理/获取扫描电压.vi"/>
+				<Item Name="获取组列表.vi" Type="VI" URL="../Lib/数据处理/获取组列表.vi"/>
+				<Item Name="排序.vi" Type="VI" URL="../Lib/数据处理/排序.vi"/>
+				<Item Name="扫描测试数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描测试数据保存.vi"/>
+				<Item Name="扫描方向检查.vi" Type="VI" URL="../Lib/数据处理/扫描方向检查.vi"/>
+				<Item Name="生成所有扫描曲线.vi" Type="VI" URL="../Lib/数据处理/生成所有扫描曲线.vi"/>
+				<Item Name="数据分类.vi" Type="VI" URL="../Lib/数据处理/数据分类.vi"/>
+				<Item Name="数据格式转化.vi" Type="VI" URL="../Lib/数据处理/数据格式转化.vi"/>
+				<Item Name="数据摘要提取.vi" Type="VI" URL="../Lib/数据处理/数据摘要提取.vi"/>
+				<Item Name="索引簇检查.vi" Type="VI" URL="../Lib/数据处理/索引簇检查.vi"/>
+				<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据.vi"/>
+				<Item Name="突变电压数据保存.vi" Type="VI" URL="../Lib/数据处理/突变电压数据保存.vi"/>
+			</Item>
+			<Item Name="数据库" Type="Folder">
+				<Item Name="样品标记" Type="Folder">
+					<Item Name="读取.vi" Type="VI" URL="../Lib/数据库/样品标记/读取.vi"/>
+					<Item Name="写入.vi" Type="VI" URL="../Lib/数据库/样品标记/写入.vi"/>
+				</Item>
+			</Item>
+			<Item Name="数据显示" Type="Folder">
+				<Item Name="缓冲区数据曲线生成.vi" Type="VI" URL="../Lib/数据显示/缓冲区数据曲线生成.vi"/>
+				<Item Name="曲线属性.vi" Type="VI" URL="../Lib/数据显示/曲线属性.vi"/>
+				<Item Name="扫描曲线生成.vi" Type="VI" URL="../Lib/数据显示/扫描曲线生成.vi"/>
+				<Item Name="设置曲线属性.vi" Type="VI" URL="../Lib/数据显示/设置曲线属性.vi"/>
+				<Item Name="时间曲线生成.vi" Type="VI" URL="../Lib/数据显示/时间曲线生成.vi"/>
+				<Item Name="添加数据.vi" Type="VI" URL="../Lib/数据显示/添加数据.vi"/>
+			</Item>
+			<Item Name="2601B.lvclass" Type="LVClass" URL="../Lib/2601B/2601B.lvclass"/>
+			<Item Name="icon.ico" Type="Document" URL="../Lib/icon.ico"/>
+			<Item Name="获取队列引用.vi" Type="VI" URL="../Lib/获取队列引用.vi"/>
+			<Item Name="禁用控件.vi" Type="VI" URL="../Lib/禁用控件.vi"/>
+			<Item Name="生成任务队列.vi" Type="VI" URL="../Lib/生成任务队列.vi"/>
 		</Item>
 		<Item Name="viLib" Type="Folder">
 			<Item Name="Base64.lvlib" Type="Library" URL="../viLib/Base64/Base64.lvlib"/>

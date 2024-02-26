@@ -45,10 +45,10 @@
 					<Item Name="解包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/解包属性.vi"/>
 				</Item>
 				<Item Name="控件" Type="Folder">
+					<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试类型.ctl"/>
 					<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试数据类型.ctl"/>
 				</Item>
 				<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/布尔非转非法数字.vi"/>
-				<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/测试类型.ctl"/>
 				<Item Name="导出扫描测试数据.vi" Type="VI" URL="../Lib/数据处理/导出扫描测试数据.vi"/>
 				<Item Name="电流插值.vi" Type="VI" URL="../Lib/数据处理/电流插值.vi"/>
 				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>

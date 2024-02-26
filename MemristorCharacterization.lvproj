@@ -49,6 +49,9 @@
 					<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试类型.ctl"/>
 					<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试数据类型.ctl"/>
 				</Item>
+				<Item Name="索引数据" Type="Folder">
+					<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据/索引数据.vi"/>
+				</Item>
 				<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/布尔非转非法数字.vi"/>
 				<Item Name="导出扫描测试数据.vi" Type="VI" URL="../Lib/数据处理/导出扫描测试数据.vi"/>
 				<Item Name="电流插值.vi" Type="VI" URL="../Lib/数据处理/电流插值.vi"/>
@@ -62,7 +65,6 @@
 				<Item Name="数据格式转化.vi" Type="VI" URL="../Lib/数据处理/数据格式转化.vi"/>
 				<Item Name="数据摘要提取.vi" Type="VI" URL="../Lib/数据处理/数据摘要提取.vi"/>
 				<Item Name="索引簇检查.vi" Type="VI" URL="../Lib/数据处理/索引簇检查.vi"/>
-				<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据.vi"/>
 				<Item Name="突变电压数据保存.vi" Type="VI" URL="../Lib/数据处理/突变电压数据保存.vi"/>
 			</Item>
 			<Item Name="数据库" Type="Folder">

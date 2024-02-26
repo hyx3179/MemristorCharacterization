@@ -42,6 +42,7 @@
 					<Item Name="读取打包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/读取打包属性.vi"/>
 					<Item Name="读取数据文件.vi" Type="VI" URL="../Lib/数据处理/读取数据/读取数据文件.vi"/>
 					<Item Name="获取组列表.vi" Type="VI" URL="../Lib/数据处理/读取数据/获取组列表.vi"/>
+					<Item Name="解包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/解包属性.vi"/>
 				</Item>
 				<Item Name="控件" Type="Folder">
 					<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试数据类型.ctl"/>

@@ -51,24 +51,26 @@
 					<Item Name="索引簇.ctl" Type="VI" URL="../Lib/数据处理/控件/索引簇.ctl"/>
 					<Item Name="显示曲线范围.ctl" Type="VI" URL="../Lib/数据处理/控件/显示曲线范围.ctl"/>
 				</Item>
+				<Item Name="扫描导出" Type="Folder">
+					<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/扫描导出/布尔非转非法数字.vi"/>
+					<Item Name="导出扫描测试数据.vi" Type="VI" URL="../Lib/数据处理/扫描导出/导出扫描测试数据.vi"/>
+					<Item Name="电流插值.vi" Type="VI" URL="../Lib/数据处理/扫描导出/电流插值.vi"/>
+					<Item Name="获取扫描电压.vi" Type="VI" URL="../Lib/数据处理/扫描导出/获取扫描电压.vi"/>
+					<Item Name="扫描测试数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描导出/扫描测试数据保存.vi"/>
+					<Item Name="扫描方向检查.vi" Type="VI" URL="../Lib/数据处理/扫描导出/扫描方向检查.vi"/>
+					<Item Name="突变电压数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描导出/突变电压数据保存.vi"/>
+				</Item>
 				<Item Name="索引数据" Type="Folder">
 					<Item Name="读取数据属性.vi" Type="VI" URL="../Lib/数据处理/索引数据/读取数据属性.vi"/>
 					<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据/索引数据.vi"/>
 				</Item>
-				<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/布尔非转非法数字.vi"/>
-				<Item Name="导出扫描测试数据.vi" Type="VI" URL="../Lib/数据处理/导出扫描测试数据.vi"/>
-				<Item Name="电流插值.vi" Type="VI" URL="../Lib/数据处理/电流插值.vi"/>
 				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>
-				<Item Name="获取扫描电压.vi" Type="VI" URL="../Lib/数据处理/获取扫描电压.vi"/>
 				<Item Name="排序.vi" Type="VI" URL="../Lib/数据处理/排序.vi"/>
-				<Item Name="扫描测试数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描测试数据保存.vi"/>
-				<Item Name="扫描方向检查.vi" Type="VI" URL="../Lib/数据处理/扫描方向检查.vi"/>
 				<Item Name="生成所有扫描曲线.vi" Type="VI" URL="../Lib/数据处理/生成所有扫描曲线.vi"/>
 				<Item Name="数据分类.vi" Type="VI" URL="../Lib/数据处理/数据分类.vi"/>
 				<Item Name="数据格式转化.vi" Type="VI" URL="../Lib/数据处理/数据格式转化.vi"/>
 				<Item Name="数据摘要提取.vi" Type="VI" URL="../Lib/数据处理/数据摘要提取.vi"/>
 				<Item Name="索引簇检查.vi" Type="VI" URL="../Lib/数据处理/索引簇检查.vi"/>
-				<Item Name="突变电压数据保存.vi" Type="VI" URL="../Lib/数据处理/突变电压数据保存.vi"/>
 			</Item>
 			<Item Name="数据库" Type="Folder">
 				<Item Name="样品标记" Type="Folder">

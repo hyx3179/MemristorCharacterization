@@ -68,6 +68,7 @@
 				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>
 				<Item Name="排序.vi" Type="VI" URL="../Lib/数据处理/排序.vi"/>
 				<Item Name="生成所有扫描曲线.vi" Type="VI" URL="../Lib/数据处理/生成所有扫描曲线.vi"/>
+				<Item Name="测试数据保存.vi" Type="VI" URL="../Lib/数据处理/测试数据保存.vi"/>
 				<Item Name="数据分类.vi" Type="VI" URL="../Lib/数据处理/数据分类.vi"/>
 				<Item Name="数据格式转化.vi" Type="VI" URL="../Lib/数据处理/数据格式转化.vi"/>
 				<Item Name="数据摘要提取.vi" Type="VI" URL="../Lib/数据处理/数据摘要提取.vi"/>

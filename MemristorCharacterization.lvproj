@@ -62,6 +62,7 @@
 				</Item>
 				<Item Name="索引数据" Type="Folder">
 					<Item Name="读取数据属性.vi" Type="VI" URL="../Lib/数据处理/索引数据/读取数据属性.vi"/>
+					<Item Name="索引脉冲(保持时间).vi" Type="VI" URL="../Lib/数据处理/索引数据/索引脉冲(保持时间).vi"/>
 					<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据/索引数据.vi"/>
 				</Item>
 				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>

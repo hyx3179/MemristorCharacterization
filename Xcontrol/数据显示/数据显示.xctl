@@ -54,6 +54,12 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">突变电压</Property>
 			<Item Name="突变电压读取.vi" Type="Property VI" URL="../属性/突变电压读取.vi"/>
 		</Item>
+		<Item Name="历史数据" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">历史数据</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">历史数据</Property>
+			<Item Name="历史数据读取.vi" Type="Property VI" URL="../属性/历史数据读取.vi"/>
+			<Item Name="历史数据写入.vi" Type="Property VI" URL="../属性/历史数据写入.vi"/>
+		</Item>
 	</Item>
 	<Item Name="子VI" Type="Folder">
 		<Item Name="高速脉冲绘制.vi" Type="VI" URL="../子VI/高速脉冲绘制.vi"/>

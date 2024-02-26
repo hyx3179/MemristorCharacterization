@@ -45,6 +45,7 @@
 					<Item Name="解包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/解包属性.vi"/>
 				</Item>
 				<Item Name="控件" Type="Folder">
+					<Item Name="包含删除.ctl" Type="VI" URL="../Lib/数据处理/控件/包含删除.ctl"/>
 					<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试类型.ctl"/>
 					<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试数据类型.ctl"/>
 				</Item>

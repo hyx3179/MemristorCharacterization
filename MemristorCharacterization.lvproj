@@ -48,8 +48,11 @@
 					<Item Name="包含删除.ctl" Type="VI" URL="../Lib/数据处理/控件/包含删除.ctl"/>
 					<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试类型.ctl"/>
 					<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试数据类型.ctl"/>
+					<Item Name="索引簇.ctl" Type="VI" URL="../Lib/数据处理/控件/索引簇.ctl"/>
+					<Item Name="显示曲线范围.ctl" Type="VI" URL="../Lib/数据处理/控件/显示曲线范围.ctl"/>
 				</Item>
 				<Item Name="索引数据" Type="Folder">
+					<Item Name="读取数据属性.vi" Type="VI" URL="../Lib/数据处理/索引数据/读取数据属性.vi"/>
 					<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据/索引数据.vi"/>
 				</Item>
 				<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/布尔非转非法数字.vi"/>

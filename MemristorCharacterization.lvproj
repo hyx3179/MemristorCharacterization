@@ -22,7 +22,6 @@
 		<Item Name="Lib" Type="Folder">
 			<Item Name="控件" Type="Folder">
 				<Item Name="XY图.ctl" Type="VI" URL="../Lib/控件/XY图.ctl"/>
-				<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/控件/测试数据类型.ctl"/>
 				<Item Name="队列组.ctl" Type="VI" URL="../Lib/控件/队列组.ctl"/>
 				<Item Name="脉冲参数.ctl" Type="VI" URL="../Lib/控件/脉冲参数.ctl"/>
 				<Item Name="曲线设置.ctl" Type="VI" URL="../Lib/控件/曲线设置.ctl"/>
@@ -39,15 +38,20 @@
 				<Item Name="写入数据.vi" Type="VI" URL="../Lib/数据保存/写入数据.vi"/>
 			</Item>
 			<Item Name="数据处理" Type="Folder">
+				<Item Name="读取数据" Type="Folder">
+					<Item Name="读取打包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/读取打包属性.vi"/>
+					<Item Name="读取数据文件.vi" Type="VI" URL="../Lib/数据处理/读取数据/读取数据文件.vi"/>
+					<Item Name="获取组列表.vi" Type="VI" URL="../Lib/数据处理/读取数据/获取组列表.vi"/>
+				</Item>
+				<Item Name="控件" Type="Folder">
+					<Item Name="测试数据类型.ctl" Type="VI" URL="../Lib/数据处理/控件/测试数据类型.ctl"/>
+				</Item>
 				<Item Name="布尔非转非法数字.vi" Type="VI" URL="../Lib/数据处理/布尔非转非法数字.vi"/>
 				<Item Name="测试类型.ctl" Type="VI" URL="../Lib/数据处理/测试类型.ctl"/>
 				<Item Name="导出扫描测试数据.vi" Type="VI" URL="../Lib/数据处理/导出扫描测试数据.vi"/>
 				<Item Name="电流插值.vi" Type="VI" URL="../Lib/数据处理/电流插值.vi"/>
-				<Item Name="读取数据文件.vi" Type="VI" URL="../Lib/数据处理/读取数据文件.vi"/>
-				<Item Name="读取组属性.vi" Type="VI" URL="../Lib/数据处理/读取组属性.vi"/>
 				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>
 				<Item Name="获取扫描电压.vi" Type="VI" URL="../Lib/数据处理/获取扫描电压.vi"/>
-				<Item Name="获取组列表.vi" Type="VI" URL="../Lib/数据处理/获取组列表.vi"/>
 				<Item Name="排序.vi" Type="VI" URL="../Lib/数据处理/排序.vi"/>
 				<Item Name="扫描测试数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描测试数据保存.vi"/>
 				<Item Name="扫描方向检查.vi" Type="VI" URL="../Lib/数据处理/扫描方向检查.vi"/>

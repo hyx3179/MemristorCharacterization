@@ -190,7 +190,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D19043B0-DB16-40D3-8E14-3E3EDDC75798}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">IV表征.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/IV表征/IV表征.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -217,7 +217,7 @@
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">IV表征</Property>
 				<Property Name="TgtF_internalName" Type="Str">IV表征</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2024</Property>
 				<Property Name="TgtF_productName" Type="Str">IV表征</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D0C1572F-CBC3-4294-8783-4F3EB071194D}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">IV表征.exe</Property>
@@ -235,17 +235,19 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/数据处理</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/数据处理</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{19B99EDD-8BE0-4770-9F14-A65711D86661}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">数据处理.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据处理/数据处理.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/数据处理/数据处理.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据处理/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/数据处理/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/Lib/icon.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{6C6B6907-86CC-4E32-9D42-A841006A5A15}</Property>
@@ -262,51 +264,12 @@
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">IV表征</Property>
-				<Property Name="TgtF_internalName" Type="Str">IV表征</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>
-				<Property Name="TgtF_productName" Type="Str">IV表征</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">处理 IV表征 产生的数据</Property>
+				<Property Name="TgtF_internalName" Type="Str">数据处理</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">IV表征 数据处理</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7FBC7265-0D4D-4BC6-AF4A-5CF6A6DCEF2D}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">数据处理.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="数据格式转化" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{D3971802-67FF-4B14-93CF-0B044E81C4EB}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{282A4334-1B83-4C54-869C-70AF4EE825C9}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{A921A440-A2E5-4F85-8FDB-7E5FD3729088}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">数据格式转化</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/数据格式转化</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2D2BC4BB-FA55-4471-86F9-A700110CDABA}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">数据格式转化.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据格式转化/数据格式转化.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/数据格式转化/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{69DBD117-02FE-4E64-87D1-7C20FF7776F2}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Lib/数据处理/数据格式转化.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">数据格式转化</Property>
-				<Property Name="TgtF_internalName" Type="Str">数据格式转化</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>
-				<Property Name="TgtF_productName" Type="Str">数据格式转化</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{1AD30003-9F2B-42A7-B0A5-F9A224CE1054}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">数据格式转化.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

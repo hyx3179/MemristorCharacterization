@@ -93,6 +93,7 @@
 			<Item Name="获取队列引用.vi" Type="VI" URL="../Lib/获取队列引用.vi"/>
 			<Item Name="禁用控件.vi" Type="VI" URL="../Lib/禁用控件.vi"/>
 			<Item Name="生成任务队列.vi" Type="VI" URL="../Lib/生成任务队列.vi"/>
+			<Item Name="虚拟.lvclass" Type="LVClass" URL="../Lib/2601B/虚拟/虚拟.lvclass"/>
 		</Item>
 		<Item Name="viLib" Type="Folder">
 			<Item Name="Base64.lvlib" Type="Library" URL="../viLib/Base64/Base64.lvlib"/>

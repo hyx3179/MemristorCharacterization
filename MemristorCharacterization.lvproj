@@ -21,14 +21,7 @@
 		</Item>
 		<Item Name="Lib" Type="Folder">
 			<Item Name="控件" Type="Folder">
-				<Item Name="XY图.ctl" Type="VI" URL="../Lib/控件/XY图.ctl"/>
 				<Item Name="队列组.ctl" Type="VI" URL="../Lib/控件/队列组.ctl"/>
-				<Item Name="脉冲参数.ctl" Type="VI" URL="../Lib/控件/脉冲参数.ctl"/>
-				<Item Name="曲线设置.ctl" Type="VI" URL="../Lib/控件/曲线设置.ctl"/>
-				<Item Name="曲线属性.ctl" Type="VI" URL="../Lib/控件/曲线属性.ctl"/>
-				<Item Name="扫描参数.ctl" Type="VI" URL="../Lib/控件/扫描参数.ctl"/>
-				<Item Name="维持时间.ctl" Type="VI" URL="../Lib/控件/维持时间.ctl"/>
-				<Item Name="坐标轴映射.ctl" Type="VI" URL="../Lib/控件/坐标轴映射.ctl"/>
 			</Item>
 			<Item Name="数据保存" Type="Folder">
 				<Item Name="TDMS引用.vi" Type="VI" URL="../Lib/数据保存/TDMS引用.vi"/>
@@ -65,28 +58,16 @@
 					<Item Name="索引脉冲(保持时间).vi" Type="VI" URL="../Lib/数据处理/索引数据/索引脉冲(保持时间).vi"/>
 					<Item Name="索引数据.vi" Type="VI" URL="../Lib/数据处理/索引数据/索引数据.vi"/>
 				</Item>
-				<Item Name="更新显示范围.vi" Type="VI" URL="../Lib/数据处理/更新显示范围.vi"/>
-				<Item Name="排序.vi" Type="VI" URL="../Lib/数据处理/排序.vi"/>
-				<Item Name="生成所有扫描曲线.vi" Type="VI" URL="../Lib/数据处理/生成所有扫描曲线.vi"/>
 				<Item Name="测试数据保存.vi" Type="VI" URL="../Lib/数据处理/测试数据保存.vi"/>
 				<Item Name="数据分类.vi" Type="VI" URL="../Lib/数据处理/数据分类.vi"/>
 				<Item Name="数据格式转化.vi" Type="VI" URL="../Lib/数据处理/数据格式转化.vi"/>
 				<Item Name="数据摘要提取.vi" Type="VI" URL="../Lib/数据处理/数据摘要提取.vi"/>
-				<Item Name="索引簇检查.vi" Type="VI" URL="../Lib/数据处理/索引簇检查.vi"/>
 			</Item>
 			<Item Name="数据库" Type="Folder">
 				<Item Name="样品标记" Type="Folder">
 					<Item Name="读取.vi" Type="VI" URL="../Lib/数据库/样品标记/读取.vi"/>
 					<Item Name="写入.vi" Type="VI" URL="../Lib/数据库/样品标记/写入.vi"/>
 				</Item>
-			</Item>
-			<Item Name="数据显示" Type="Folder">
-				<Item Name="缓冲区数据曲线生成.vi" Type="VI" URL="../Lib/数据显示/缓冲区数据曲线生成.vi"/>
-				<Item Name="曲线属性.vi" Type="VI" URL="../Lib/数据显示/曲线属性.vi"/>
-				<Item Name="扫描曲线生成.vi" Type="VI" URL="../Lib/数据显示/扫描曲线生成.vi"/>
-				<Item Name="设置曲线属性.vi" Type="VI" URL="../Lib/数据显示/设置曲线属性.vi"/>
-				<Item Name="时间曲线生成.vi" Type="VI" URL="../Lib/数据显示/时间曲线生成.vi"/>
-				<Item Name="添加数据.vi" Type="VI" URL="../Lib/数据显示/添加数据.vi"/>
 			</Item>
 			<Item Name="2601B.lvclass" Type="LVClass" URL="../Lib/2601B/2601B.lvclass"/>
 			<Item Name="icon.ico" Type="Document" URL="../Lib/icon.ico"/>
@@ -96,11 +77,9 @@
 			<Item Name="虚拟.lvclass" Type="LVClass" URL="../Lib/2601B/虚拟/虚拟.lvclass"/>
 		</Item>
 		<Item Name="viLib" Type="Folder">
-			<Item Name="Base64.lvlib" Type="Library" URL="../viLib/Base64/Base64.lvlib"/>
 			<Item Name="LogLib.lvlib" Type="Library" URL="../viLib/LogLib/LogLib.lvlib"/>
 			<Item Name="QueueLib.lvlib" Type="Library" URL="../viLib/QueueLib/QueueLib.lvlib"/>
 			<Item Name="TableLib.lvlib" Type="Library" URL="../viLib/TableLib/TableLib.lvlib"/>
-			<Item Name="UMLib.lvlib" Type="Library" URL="../viLib/UMLib/UMLib.lvlib"/>
 		</Item>
 		<Item Name="Xcontrol" Type="Folder">
 			<Item Name="功能选择.xctl" Type="XControl" URL="../Xcontrol/功能选择/功能选择.xctl"/>
@@ -108,7 +87,6 @@
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
@@ -151,15 +129,11 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Bit Manipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Bit Manipulation/NI_Bit Manipulation.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
-				<Item Name="NI_Message Digest API.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/API/NI_Message Digest API.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_SHA-256.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-256/NI_SHA-256.lvclass"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
@@ -171,15 +145,11 @@
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
-				<Item Name="Set Intersection.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Intersection.vim"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="SQLite.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQLite.lvlib"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
@@ -244,12 +214,7 @@
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/viLib/UMLib.lvlib/用户管理主界面.vi</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">IV表征</Property>
 				<Property Name="TgtF_internalName" Type="Str">IV表征</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>

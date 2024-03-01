@@ -191,6 +191,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D19043B0-DB16-40D3-8E14-3E3EDDC75798}</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IV表征.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/IV表征/IV表征.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -240,6 +241,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{19B99EDD-8BE0-4770-9F14-A65711D86661}</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">数据处理.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/数据处理/数据处理.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>

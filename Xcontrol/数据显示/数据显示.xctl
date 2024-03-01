@@ -34,6 +34,7 @@
 		</Item>
 	</Item>
 	<Item Name="控件" Type="Folder">
+		<Item Name="XY图.ctl" Type="VI" URL="../控件/XY图.ctl"/>
 		<Item Name="波形数据定义.ctl" Type="VI" URL="../控件/波形数据定义.ctl"/>
 		<Item Name="曲线设置.ctl" Type="VI" URL="../控件/曲线设置.ctl"/>
 		<Item Name="映射方式.ctl" Type="VI" URL="../控件/映射方式.ctl"/>
@@ -44,6 +45,12 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">功能</Property>
 			<Item Name="功能写入.vi" Type="Property VI" URL="../属性/功能写入.vi"/>
 		</Item>
+		<Item Name="历史数据" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">历史数据</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">历史数据</Property>
+			<Item Name="历史数据读取.vi" Type="Property VI" URL="../属性/历史数据读取.vi"/>
+			<Item Name="历史数据写入.vi" Type="Property VI" URL="../属性/历史数据写入.vi"/>
+		</Item>
 		<Item Name="数据属性" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">数据属性</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">数据属性</Property>
@@ -53,12 +60,6 @@
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">突变电压</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">突变电压</Property>
 			<Item Name="突变电压读取.vi" Type="Property VI" URL="../属性/突变电压读取.vi"/>
-		</Item>
-		<Item Name="历史数据" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">历史数据</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">历史数据</Property>
-			<Item Name="历史数据读取.vi" Type="Property VI" URL="../属性/历史数据读取.vi"/>
-			<Item Name="历史数据写入.vi" Type="Property VI" URL="../属性/历史数据写入.vi"/>
 		</Item>
 	</Item>
 	<Item Name="子VI" Type="Folder">

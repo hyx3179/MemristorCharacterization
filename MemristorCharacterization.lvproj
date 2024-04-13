@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str">DEBUG,0;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -50,7 +50,6 @@
 					<Item Name="获取扫描电压.vi" Type="VI" URL="../Lib/数据处理/扫描导出/获取扫描电压.vi"/>
 					<Item Name="扫描测试数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描导出/扫描测试数据保存.vi"/>
 					<Item Name="扫描方向检查.vi" Type="VI" URL="../Lib/数据处理/扫描导出/扫描方向检查.vi"/>
-					<Item Name="突变电压数据保存.vi" Type="VI" URL="../Lib/数据处理/扫描导出/突变电压数据保存.vi"/>
 				</Item>
 				<Item Name="索引数据" Type="Folder">
 					<Item Name="读取数据属性.vi" Type="VI" URL="../Lib/数据处理/索引数据/读取数据属性.vi"/>

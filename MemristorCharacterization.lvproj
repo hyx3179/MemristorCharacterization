@@ -31,10 +31,7 @@
 			</Item>
 			<Item Name="数据处理" Type="Folder">
 				<Item Name="读取数据" Type="Folder">
-					<Item Name="读取打包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/读取打包属性.vi"/>
 					<Item Name="读取数据文件.vi" Type="VI" URL="../Lib/数据处理/读取数据/读取数据文件.vi"/>
-					<Item Name="获取组列表.vi" Type="VI" URL="../Lib/数据处理/读取数据/获取组列表.vi"/>
-					<Item Name="解包属性.vi" Type="VI" URL="../Lib/数据处理/读取数据/解包属性.vi"/>
 				</Item>
 				<Item Name="控件" Type="Folder">
 					<Item Name="包含删除.ctl" Type="VI" URL="../Lib/数据处理/控件/包含删除.ctl"/>
@@ -87,6 +84,7 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
 				<Item Name="ZLIB Deflate__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Deflate__ogtk.vi"/>
+				<Item Name="ZLIB Inflate__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Inflate__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -160,7 +158,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
-				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>

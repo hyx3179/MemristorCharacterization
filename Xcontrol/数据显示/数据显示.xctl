@@ -54,6 +54,7 @@
 		<Item Name="数据属性" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">数据属性</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">数据属性</Property>
+			<Item Name="数据属性读取.vi" Type="Property VI" URL="../属性/数据属性读取.vi"/>
 			<Item Name="数据属性写入.vi" Type="Property VI" URL="../属性/数据属性写入.vi"/>
 		</Item>
 		<Item Name="突变电压" Type="Property Folder">

@@ -24,10 +24,9 @@
 				<Item Name="队列组.ctl" Type="VI" URL="../Lib/控件/队列组.ctl"/>
 			</Item>
 			<Item Name="数据保存" Type="Folder">
-				<Item Name="TDMS引用.vi" Type="VI" URL="../Lib/数据保存/TDMS引用.vi"/>
 				<Item Name="打包属性.vi" Type="VI" URL="../Lib/数据保存/打包属性.vi"/>
 				<Item Name="打开文件.vi" Type="VI" URL="../Lib/数据保存/打开文件.vi"/>
-				<Item Name="写入属性.vi" Type="VI" URL="../Lib/数据保存/写入属性.vi"/>
+				<Item Name="数据库.vi" Type="VI" URL="../Lib/数据保存/数据库.vi"/>
 				<Item Name="写入数据.vi" Type="VI" URL="../Lib/数据保存/写入数据.vi"/>
 			</Item>
 			<Item Name="数据处理" Type="Folder">
@@ -86,6 +85,10 @@
 			<Item Name="数据显示.xctl" Type="XControl" URL="../Xcontrol/数据显示/数据显示.xctl"/>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
+				<Item Name="ZLIB Deflate__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Deflate__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

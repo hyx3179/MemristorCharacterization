@@ -176,6 +176,88 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
+			<Item Name="data程序包" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
+				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
+				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/data程序包/Feed</Property>
+				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
+				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/data程序包/Package Installer</Property>
+				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">mc-datahandle_1.0.0-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">false</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">data程序包</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.1.49157-0+f5</Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW运行引擎（32位）</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">LabVIEW运行引擎是一款附加软件，可允许工程师在非开发计算机上运行可执行文件。</Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">数据处理</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{B7460582-89B8-4E3C-BF64-1C9474EE31D6}</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{B7460582-89B8-4E3C-BF64-1C9474EE31D6}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">MemristorCharacterization</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_3</Property>
+				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">MC数据处理</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str"></Property>
+				<Property Name="PKG_feedName" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_hostname" Type="Str"></Property>
+				<Property Name="PKG_maintainer" Type="Str">hyx3179 &lt;hyx3179@gmail.com&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/程序包</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
+				<Property Name="PKG_packageName" Type="Str">mc-datahandle</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">应用软件</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">2</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">数据处理</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{7FBC7265-0D4D-4BC6-AF4A-5CF6A6DCEF2D}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/我的电脑/程序生成规范/数据处理</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[1].Name" Type="Str">数据格式转化</Property>
+				<Property Name="PKG_shortcuts[1].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[1].Target.Child" Type="Str">{1FF9AC20-ED2D-49E8-BCF4-0D787DD6BE86}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Source" Type="Ref">/我的电脑/程序生成规范/数据格式转化</Property>
+				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">2</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/我的电脑/程序生成规范/数据处理</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/我的电脑/程序生成规范/数据格式转化</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_synopsis" Type="Str">MemristorCharacterization</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+			</Item>
 			<Item Name="IV表征" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{FA604EC4-1AE6-4098-9E30-E5876ED5D784}</Property>
@@ -225,6 +307,90 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D0C1572F-CBC3-4294-8783-4F3EB071194D}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">IV表征.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IV程序包" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
+				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
+				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/IV程序包/Feed</Property>
+				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_installerArtifacts" Type="Str">Install.exe|InstallCHS.dll|InstallDEU.dll|InstallFRA.dll|InstallJPN.dll|InstallKOR.dll|bin|feeds|pool|system-packages
+</Property>
+				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/IV程序包/Package Installer</Property>
+				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">mc-ivtest_1.0.0-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">false</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">IV程序包</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">2</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.1.49157-0+f5</Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW运行引擎（32位）</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">LabVIEW运行引擎是一款附加软件，可允许工程师在非开发计算机上运行可执行文件。</Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MinVersion" Type="Str">20.0.0.49152-0+f0</Property>
+				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">NI-VISA运行引擎</Property>
+				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-visa-runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">提供用于控制USB、TCPIP、GPIB、Serial、PXI及其他类型仪器的API。</Property>
+				<Property Name="PKG_dependencies[1].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{17579C0E-E72C-4122-9910-58467973F407}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">MemristorCharacterization</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_3</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{204F26A1-379F-4FB2-8DC5-A8CD2BB1C4D7}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">IV表征</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{17579C0E-E72C-4122-9910-58467973F407}</Property>
+				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">MCIV表征</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str"></Property>
+				<Property Name="PKG_feedName" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_hostname" Type="Str"></Property>
+				<Property Name="PKG_maintainer" Type="Str">hyx3179 &lt;hyx3179@gmail.com&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/程序包</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
+				<Property Name="PKG_packageName" Type="Str">mc-ivtest</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">应用软件</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">IV表征</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{D0C1572F-CBC3-4294-8783-4F3EB071194D}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{204F26A1-379F-4FB2-8DC5-A8CD2BB1C4D7}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/我的电脑/程序生成规范/IV表征</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{204F26A1-379F-4FB2-8DC5-A8CD2BB1C4D7}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/我的电脑/程序生成规范/IV表征</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_synopsis" Type="Str">MemristorCharacterization</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 			<Item Name="数据处理" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>

@@ -410,6 +410,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{19B99EDD-8BE0-4770-9F14-A65711D86661}</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">数据处理.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/数据处理/数据处理.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>

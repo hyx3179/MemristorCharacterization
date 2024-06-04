@@ -58,6 +58,7 @@
 				<Item Name="数据分类.vi" Type="VI" URL="../Lib/数据处理/数据分类.vi"/>
 				<Item Name="数据格式转化.vi" Type="VI" URL="../Lib/数据处理/数据格式转化.vi"/>
 				<Item Name="数据摘要提取.vi" Type="VI" URL="../Lib/数据处理/数据摘要提取.vi"/>
+				<Item Name="消除电流零偏.vi" Type="VI" URL="../Lib/数据处理/消除电流零偏.vi"/>
 			</Item>
 			<Item Name="数据库" Type="Folder">
 				<Item Name="样品标记" Type="Folder">
@@ -70,6 +71,7 @@
 			<Item Name="获取队列引用.vi" Type="VI" URL="../Lib/获取队列引用.vi"/>
 			<Item Name="禁用控件.vi" Type="VI" URL="../Lib/禁用控件.vi"/>
 			<Item Name="生成任务队列.vi" Type="VI" URL="../Lib/生成任务队列.vi"/>
+			<Item Name="输入数据.vi" Type="VI" URL="../Lib/输入数据.vi"/>
 			<Item Name="虚拟.lvclass" Type="LVClass" URL="../Lib/2601B/虚拟/虚拟.lvclass"/>
 		</Item>
 		<Item Name="viLib" Type="Folder">
@@ -176,88 +178,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="data程序包" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
-				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
-				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
-				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
-				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
-				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/data程序包/Feed</Property>
-				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
-				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
-				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/data程序包/Package Installer</Property>
-				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">mc-datahandle_1.0.0-0_windows_all.nipkg</Property>
-				<Property Name="NIPKG_license" Type="Ref"></Property>
-				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
-				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
-				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
-				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
-				<Property Name="PKG_actions.Count" Type="Int">0</Property>
-				<Property Name="PKG_autoIncrementBuild" Type="Bool">false</Property>
-				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">0</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">data程序包</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
-				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.1.49157-0+f5</Property>
-				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW运行引擎（32位）</Property>
-				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine-x86</Property>
-				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">LabVIEW运行引擎是一款附加软件，可允许工程师在非开发计算机上运行可执行文件。</Property>
-				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
-				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_description" Type="Str"></Property>
-				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
-				<Property Name="PKG_destinations[0].ID" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
-				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">数据处理</Property>
-				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{B7460582-89B8-4E3C-BF64-1C9474EE31D6}</Property>
-				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[1].ID" Type="Str">{B7460582-89B8-4E3C-BF64-1C9474EE31D6}</Property>
-				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">MemristorCharacterization</Property>
-				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_3</Property>
-				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_displayName" Type="Str">MC数据处理</Property>
-				<Property Name="PKG_displayVersion" Type="Str"></Property>
-				<Property Name="PKG_feedDescription" Type="Str"></Property>
-				<Property Name="PKG_feedName" Type="Str"></Property>
-				<Property Name="PKG_homepage" Type="Str"></Property>
-				<Property Name="PKG_hostname" Type="Str"></Property>
-				<Property Name="PKG_maintainer" Type="Str">hyx3179 &lt;hyx3179@gmail.com&gt;</Property>
-				<Property Name="PKG_output" Type="Path">../builds/程序包</Property>
-				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
-				<Property Name="PKG_packageName" Type="Str">mc-datahandle</Property>
-				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
-				<Property Name="PKG_section" Type="Str">应用软件</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">2</Property>
-				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_1</Property>
-				<Property Name="PKG_shortcuts[0].Name" Type="Str">数据处理</Property>
-				<Property Name="PKG_shortcuts[0].Path" Type="Path"></Property>
-				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{7FBC7265-0D4D-4BC6-AF4A-5CF6A6DCEF2D}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/我的电脑/程序生成规范/数据处理</Property>
-				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_1</Property>
-				<Property Name="PKG_shortcuts[1].Name" Type="Str">数据格式转化</Property>
-				<Property Name="PKG_shortcuts[1].Path" Type="Path"></Property>
-				<Property Name="PKG_shortcuts[1].Target.Child" Type="Str">{1FF9AC20-ED2D-49E8-BCF4-0D787DD6BE86}</Property>
-				<Property Name="PKG_shortcuts[1].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
-				<Property Name="PKG_shortcuts[1].Target.Source" Type="Ref">/我的电脑/程序生成规范/数据格式转化</Property>
-				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_sources.Count" Type="Int">2</Property>
-				<Property Name="PKG_sources[0].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/我的电脑/程序生成规范/数据处理</Property>
-				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
-				<Property Name="PKG_sources[1].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref">/我的电脑/程序生成规范/数据格式转化</Property>
-				<Property Name="PKG_sources[1].Type" Type="Str">EXE Build</Property>
-				<Property Name="PKG_synopsis" Type="Str">MemristorCharacterization</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
-			</Item>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="IV表征" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{FA604EC4-1AE6-4098-9E30-E5876ED5D784}</Property>
@@ -494,6 +415,140 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1FF9AC20-ED2D-49E8-BCF4-0D787DD6BE86}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">数据格式转化.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="消除电流零偏" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4948D5A5-C9F8-4372-8BD6-C26844916876}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4A5E5F55-F7D7-4AEB-A415-84E1EF1B75C7}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{AD02B2F7-47EC-4750-ACD2-29D6D54A3BDC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">消除电流零偏</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/消除电流零偏</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7F6391DD-3FCA-4FB9-A1CF-C0BA0A10D327}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">消除电流零偏.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/消除电流零偏/消除电流零偏.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/消除电流零偏/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/Lib/icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{858BED76-4630-4205-8640-06155A5405DF}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Lib/数据处理/消除电流零偏.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">消除电流零偏</Property>
+				<Property Name="TgtF_internalName" Type="Str">消除电流零偏</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">消除电流零偏</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{689EB89D-A2DD-4051-AD7F-5D6A25B12F12}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">消除电流零偏.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="data程序包" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
+				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
+				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/data程序包/Feed</Property>
+				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
+				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/data程序包/Package Installer</Property>
+				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">mc-datahandle_1.0.0-5_windows_all.nipkg</Property>
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
+				<Property Name="PKG_buildNumber" Type="Int">6</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">data程序包</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.1.49157-0+f5</Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW运行引擎（32位）</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">LabVIEW运行引擎是一款附加软件，可允许工程师在非开发计算机上运行可执行文件。</Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">数据处理</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{B7460582-89B8-4E3C-BF64-1C9474EE31D6}</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{B7460582-89B8-4E3C-BF64-1C9474EE31D6}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">MemristorCharacterization</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_3</Property>
+				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">MC数据处理</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str"></Property>
+				<Property Name="PKG_feedName" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_hostname" Type="Str"></Property>
+				<Property Name="PKG_maintainer" Type="Str">hyx3179 &lt;hyx3179@gmail.com&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/程序包</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
+				<Property Name="PKG_packageName" Type="Str">mc-datahandle</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">应用软件</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">3</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">数据处理</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{7FBC7265-0D4D-4BC6-AF4A-5CF6A6DCEF2D}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/我的电脑/程序生成规范/数据处理</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[1].Name" Type="Str">数据格式转化</Property>
+				<Property Name="PKG_shortcuts[1].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[1].Target.Child" Type="Str">{1FF9AC20-ED2D-49E8-BCF4-0D787DD6BE86}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Source" Type="Ref">/我的电脑/程序生成规范/数据格式转化</Property>
+				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[2].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[2].Name" Type="Str">消除电流零偏</Property>
+				<Property Name="PKG_shortcuts[2].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[2].Target.Child" Type="Str">{689EB89D-A2DD-4051-AD7F-5D6A25B12F12}</Property>
+				<Property Name="PKG_shortcuts[2].Target.Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_shortcuts[2].Target.Source" Type="Ref">/我的电脑/程序生成规范/消除电流零偏</Property>
+				<Property Name="PKG_shortcuts[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">3</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/我的电脑/程序生成规范/数据处理</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/我的电脑/程序生成规范/数据格式转化</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_sources[2].Destination" Type="Str">{A19001DE-99BC-4E2D-B553-558312920877}</Property>
+				<Property Name="PKG_sources[2].ID" Type="Ref">/我的电脑/程序生成规范/消除电流零偏</Property>
+				<Property Name="PKG_sources[2].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_synopsis" Type="Str">MemristorCharacterization</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
